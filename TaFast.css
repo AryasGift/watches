@@ -19,5 +19,54 @@ a:hover {
     width:  3.125rem;
     background-color:rgba(240,248, 255, 0.8);
 }
+.gallery{
+    display: flex;
+}
 
+.first1{
+    margin-left: 200px;
+    margin-top: 60px;
+   height: 350px;
+   width: 250px; 
+   background-image: url("./Images/analog_home.jpg");
+   background-size: cover;
+}
+.first2{
+    margin-left:50px;
+    margin-top: 60px;
+   height: 350px;
+   width: 250px; 
+   background-image: url("./Images/Smart_category.jpg");
+   background-size: cover;
+}
+.first3{
+    margin-left:50px;
+    margin-top: 60px;
+   height: 350px;
+   width: 250px; 
+   background-image: url("./Images/hearable.jpg");
+   background-size: cover;
+}
+.tw-category-tile__content {
+    color: #fff;
+    font-size: .75rem;
+    line-height: 1rem;
+    font-weight: 500;
+    padding-left: 80px;
+    padding-top: 320px;
+    max-width: unset;
+    font-family: "RedHatDisplay",sans-serif;
+}
+.text1{
+    margin-top: 70px;
+    font-family: "RedHatDisplay",sans-serif;
+}
+.text1 h3{
+    writing-mode: vertical-lr;
 
+}
+@media screen and (max-width:768px){
+    .first1{
+        margin-left: 0px;
+    }
+}
