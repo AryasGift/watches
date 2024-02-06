@@ -1,0 +1,23 @@
+.content{
+    width: 100%; 
+    height:25px; 
+    background-color: black; 
+    color: aliceblue;
+}
+.mark{
+   margin-left: 200px; 
+   background-color: black; 
+    color: aliceblue;
+}
+a:hover {
+    border-bottom:2px solid red; 
+    position: relative;
+    /* top: 10px;  */
+}
+.indicator1{
+    height: 4.125rem;
+    width:  3.125rem;
+    background-color:rgba(240,248, 255, 0.8);
+}
+
+
