@@ -66,10 +66,25 @@ a:hover {
 
 }
 @media screen and (max-width:768px){
-    .gallery{
-        display: block;
-    }
     .first1{
         margin-left: 0px;
+        height: 250px;
+        width: 250px;
+        background-size: cover;
+
+    }
+    .first2{
+        /* margin-left: 0px; */
+        height: 250px;
+        width: 250px;
+        margin-left:2px;
+        background-size: cover;
+    }
+    .first3{
+        /* margin-left: 0px; */
+        height: 250px;
+        width: 250px;
+        margin-left: 2px;
+        background-size: cover;
     }
 }
